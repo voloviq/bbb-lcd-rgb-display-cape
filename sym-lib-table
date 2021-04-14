@@ -14,4 +14,8 @@
   (lib (name "NTC_Thermistors")(type "KiCad")(uri "${KICAD_SYMBOL_DIR}/NTC_Thermistors/NTC_Thermistors.kicad_sym")(options "")(descr ""))
   (lib (name "Resistors_Smd1206")(type "KiCad")(uri "${KICAD_SYMBOL_DIR}/Resistors/Smd_1206/Resistors_Smd1206.kicad_sym")(options "")(descr ""))
   (lib (name "Fpc_Connectors")(type "KiCad")(uri "${KICAD_SYMBOL_DIR}/Connectors/Fpc_Connectors/Fpc_Connectors.kicad_sym")(options "")(descr ""))
+  (lib (name "esd_protectors")(type "KiCad")(uri "${KICAD_SYMBOL_DIR}/ESD_Protectors/esd_protectors.kicad_sym")(options "")(descr ""))
+  (lib (name "Switching_Regulators")(type "KiCad")(uri "${KICAD_SYMBOL_DIR}/Dc_Dc_Regulators/Switching/Switching_Regulators.kicad_sym")(options "")(descr ""))
+  (lib (name "Inductors")(type "KiCad")(uri "${KICAD_SYMBOL_DIR}/Inductors/Inductors.kicad_sym")(options "")(descr ""))
+  (lib (name "Lcd_Backlight_Drivers")(type "KiCad")(uri "${KICAD_SYMBOL_DIR}/Lcd_Backlight_Drivers/Lcd_Backlight_Drivers.kicad_sym")(options "")(descr ""))
 )
