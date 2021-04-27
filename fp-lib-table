@@ -20,4 +20,5 @@
   (lib (name "ESD_Protectors")(type "KiCad")(uri "${KISYS3DMOD}/ESD_Protectors/ESD_Protectors.pretty")(options "")(descr ""))
   (lib (name "Linear")(type "KiCad")(uri "${KISYS3DMOD}/Dc_Dc_Regulators/Linear/Linear.pretty")(options "")(descr ""))
   (lib (name "Lcd_Backlight_Drivers")(type "KiCad")(uri "${KISYS3DMOD}/Lcd_Backlight_Drivers/Lcd_Backlight_Drivers.pretty")(options "")(descr ""))
+  (lib (name "Transistor_Bipolar")(type "KiCad")(uri "${KISYS3DMOD}/Transistor/Transistor_Bipolar/Transistor_Bipolar.pretty")(options "")(descr ""))
 )

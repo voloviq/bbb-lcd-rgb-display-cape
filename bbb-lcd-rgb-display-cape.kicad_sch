@@ -1781,7 +1781,6 @@
     )
   )
 
-
   (junction (at 44.323 159.385) (diameter 1.016) (color 0 0 0 0))
   (junction (at 65.278 107.95) (diameter 1.016) (color 0 0 0 0))
   (junction (at 65.278 132.715) (diameter 1.016) (color 0 0 0 0))
@@ -5615,6 +5614,9 @@
     (path "/7239653c-0379-4c2b-9dee-bf4a7f9a3072/50d19c0e-6b11-45e4-886a-fcbb26327b1b"
       (reference "#PWR0142") (unit 1) (value "2V8") (footprint "")
     )
+    (path "/7239653c-0379-4c2b-9dee-bf4a7f9a3072/8707dbbb-4228-46f2-bcab-9b336a25b8d0"
+      (reference "#PWR0149") (unit 1) (value "GND") (footprint "")
+    )
     (path "/7239653c-0379-4c2b-9dee-bf4a7f9a3072/d9b296e1-1697-41c4-be1d-3a434eced781"
       (reference "C1") (unit 1) (value "100n/50V") (footprint "Capacitors_Smd_0603:100nF_0603")
     )
@@ -5648,6 +5650,9 @@
     (path "/7239653c-0379-4c2b-9dee-bf4a7f9a3072/824a9456-f38f-4bb2-8784-2cf90404c389"
       (reference "P1") (unit 1) (value "OrangePi-2G-IOT LCD Interface") (footprint "Fpc_Connectors:40pin_fpc_0_5mm")
     )
+    (path "/7239653c-0379-4c2b-9dee-bf4a7f9a3072/d77bd43f-a5b0-40ad-a641-f8c5abeb5e37"
+      (reference "Q1") (unit 1) (value "BC847B") (footprint "Transistor_Bipolar:BC847B_SOT23")
+    )
     (path "/7239653c-0379-4c2b-9dee-bf4a7f9a3072/874fe528-21d8-4547-8e2f-aa7649209237"
       (reference "R1") (unit 1) (value "10k") (footprint "Resistor_Smd_0603:10k_0603")
     )
@@ -5674,6 +5679,12 @@
     )
     (path "/7239653c-0379-4c2b-9dee-bf4a7f9a3072/9b8d77b1-3c35-4eb2-8598-50d945f6992f"
       (reference "R22") (unit 1) (value "0R") (footprint "Resistor_Smd_0603:0R_0603")
+    )
+    (path "/7239653c-0379-4c2b-9dee-bf4a7f9a3072/06d51211-dcc0-46bb-8a6f-da7c911d7b23"
+      (reference "R23") (unit 1) (value "10k") (footprint "Resistor_Smd_0603:10k_0603")
+    )
+    (path "/7239653c-0379-4c2b-9dee-bf4a7f9a3072/d0a37bfc-b8ee-4255-b86e-b219dbac52a0"
+      (reference "R24") (unit 1) (value "10R/1%/0.1Wat") (footprint "Resistor_Smd_0603:10R_0603")
     )
     (path "/7239653c-0379-4c2b-9dee-bf4a7f9a3072/c0013c2e-eb78-44f7-8837-cede24552c8b"
       (reference "U1") (unit 1) (value "82357120100") (footprint "ESD_Protectors:82357120100")

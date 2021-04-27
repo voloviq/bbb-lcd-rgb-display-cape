@@ -1,4 +1,4 @@
-1252577966519847
+1398060723442835
 Capacitors_Smd_0603
 1.2pF_GRM0335C1H1R2WA01D
 muRata SMD SM0603
@@ -1589,12 +1589,26 @@ IP4220CZ6_SOT457
 6
 6
 ESD_Protectors
+PESD2CAN.215
+
+Bipolar Transistor
+0
+3
+3
+ESD_Protectors
 PESD3V3_SOT886
 
 
 0
 6
 6
+ESD_Protectors
+SM712.TCT
+
+Bipolar Transistor
+0
+3
+3
 ESD_Protectors
 USBLC6-2_SOT23-6L
 Schmitt-Trigger Inverter
@@ -2135,6 +2149,27 @@ Inductors
 2
 2
 Inductors
+3.3nH_0402
+
+SMD Inductor
+0
+2
+2
+Inductors
+3.6nH_0402
+
+SMD Inductor
+0
+2
+2
+Inductors
+3nH_0402
+
+SMD Inductor
+0
+2
+2
+Inductors
 4.7uH-0.9A-74438333047
 
 
@@ -2170,6 +2205,13 @@ Inductors
 2
 2
 Inductors
+8.7nH_0402
+
+SMD Inductor
+0
+2
+2
+Inductors
 10uH_Dla_Size_0411_12
 RESISTOR
 RESISTOR
@@ -2178,6 +2220,20 @@ RESISTOR
 2
 Inductors
 10uH_SMD_CD32
+
+
+0
+2
+2
+Inductors
+11nH_0402
+
+SMD Inductor
+0
+2
+2
+Inductors
+15uH_0603
 
 
 0
@@ -2212,6 +2268,13 @@ SMD Inductor
 2
 2
 Inductors
+33nH_0402
+
+SMD Inductor
+0
+2
+2
+Inductors
 39nH_0402
 Murata
 SMD Inductor
@@ -2222,6 +2285,13 @@ Inductors
 39nH_0603
 
 
+0
+2
+2
+Inductors
+47nH_0402
+
+SMD Inductor
 0
 2
 2
@@ -2680,6 +2750,265 @@ mc014h60
 0
 4
 4
+Lcd_Backlight_Drivers
+DIO5661ST6
+
+SOT23_5
+0
+6
+6
+Lcd_Backlight_Drivers
+TPS61169DCKR
+38-V High Current-Boost WLED Driver With PWM Contro
+LCD Backilight Driver
+0
+5
+5
+Linear
+1711S12_SOT23
+
+SOT23_5
+0
+5
+5
+Linear
+1755S18_SOT223
+LDO 1V8 Linear Regulator
+LDO Regulator
+0
+4
+3
+Linear
+1755S33_SOT223
+LDO 3V3 Linear Regulator
+LDO Regulator
+0
+4
+3
+Linear
+AP2127K-2.8TRG1_SOT23
+LDO Regulator
+DC_DC_Regulator
+0
+3
+3
+Linear
+AP2210K-5_0TRG1
+
+
+0
+5
+5
+Linear
+APE1117AG-18-HF-SOT89
+APE1117AG-18-HF
+LDO Regulator
+0
+4
+3
+Linear
+APE1117AG-33-HF-SOT89
+APE1117AG-33-HF
+LDO Regulator
+0
+4
+3
+Linear
+APE8800_SOT23
+LDO Regulator
+DC_DC_Regulator
+0
+3
+3
+Linear
+DIO5158XM8
+
+
+0
+16
+9
+Linear
+HT7318_SOT89
+SOT-89-3
+SOT-89-3
+0
+6
+3
+Linear
+HT7333_SOT89
+SOT-89-3
+SOT-89-3
+0
+6
+3
+Linear
+IFX25001TFV50ATMA1_DPAK
+MOS boitier DPACK G-D-S
+CMD DPACK
+0
+6
+3
+Linear
+LD39200PU33R
+DFN6 3*3 MM, 0.95 PITCH; CASE 506AH-01 (see ON Semiconductor 506AH.PDF)
+DFN 0.95
+0
+13
+7
+Linear
+LDL1117S33R_SOT223
+LDO Regulator
+Voltage Regulator
+0
+4
+3
+Linear
+LM217_TO-220_CASE_3Pin_Horizontal
+Lm217_To-220_Horizontal
+Regulator
+0
+4
+3
+Linear
+LM317DCYR_SOT223
+Linear Adjustable Regulator
+LDO Regulator
+0
+4
+4
+Linear
+LM7805_TO-220_CASE_3Pin_Horizontal
+Lm7805_To-220_Horizontal
+Regulator
+0
+4
+3
+Linear
+LM7805_TO-220_CASE_3Pin_Horizontal_Cooling_1
+Lm7805_To-220_Horizontal with cooling
+Regulator
+0
+4
+3
+Linear
+LM7805_TO92
+TO-92 leads
+DC-DC Linear Regulator
+0
+3
+3
+Linear
+LP2951CM-3.3-SOIC8
+SOIC, 8 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/ada4898-1_4898-2.pdf#page=29), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
+0
+13
+9
+Linear
+MC78LC33HT1G
+3V3 LDO Regulator On Semi
+LDO Regulator
+0
+4
+3
+Linear
+MCP1700T-3302E_MB_SOT89
+SOT-89-3
+SOT-89-3
+0
+6
+3
+Linear
+MCP1703T-3302E_SOT23
+MCP1703T-3302E
+DC-DC LDO Linear Regulator
+0
+3
+3
+Linear
+MCP1755S18_Sot23_5
+
+SOT23_5
+0
+5
+5
+Linear
+MCP1755S33_Sot23_5
+
+SOT23_5
+0
+5
+5
+Linear
+MCP1812BT-033_TT
+
+Bipolar Transistor
+0
+3
+3
+Linear
+MCP1825_SOT223
+LDO Regulator
+Voltage Regulator
+0
+4
+4
+Linear
+MCP1826_SOT223
+LDO Regulator
+Voltage Regulator
+0
+4
+4
+Linear
+MCP73833-AMI
+
+
+0
+14
+11
+Linear
+MIC5504-1_8YM5_SOT23-5
+
+SOT23_5
+0
+5
+5
+Linear
+NCP708MU330TAG
+
+
+0
+16
+7
+Linear
+RT9053AZQW
+Low Dropout, 400mA Adjustable Linear Regulator
+LDO IC
+0
+14
+7
+Linear
+RT9069-50GX5-SOT23-5
+
+SOT23_5
+0
+5
+5
+Linear
+TC1014_15_1185_SOT_23_5PIN
+LDO Regulator
+DC_DC_Regulator
+0
+5
+5
+Linear
+TCR2EF28
+
+SOT23_5
+0
+5
+5
 Microswitches
 434153017835
 
@@ -4207,6 +4536,13 @@ Quarts SMD
 2
 2
 Resonators
+NX2016SA_32MHz
+32MHz
+Quarts SMD
+0
+4
+4
+Resonators
 Resonator_16MHz_49US
 16MHz Resonator 49US
 Quartz, Resonator
@@ -5522,3 +5858,199 @@ Temperature Sensor
 0
 8
 8
+Transistor_Bipolar
+2SB772_TO126H
+PNP Transistor
+Transistor
+0
+3
+3
+Transistor_Bipolar
+2SB772_TO126V
+PNP Transistor
+Transistor
+0
+3
+3
+Transistor_Bipolar
+BC337_TO92
+TO-92 leads molded, narrow, drill 0.75mm (see NXP sot054_po.pdf)
+Reset Device
+0
+3
+3
+Transistor_Bipolar
+BC547B_TO92
+TO-92 leads molded, narrow, drill 0.75mm (see NXP sot054_po.pdf)
+Reset Device
+0
+3
+3
+Transistor_Bipolar
+BC807_16_5A_SOT23
+45 V, 500 mA PNP general-purpose transistors
+Bipolar Transistor
+0
+3
+3
+Transistor_Bipolar
+BC817-25-SOT23
+
+Bipolar Transistor
+0
+3
+3
+Transistor_Bipolar
+BC846_SOT23
+
+Bipolar Transistor
+0
+3
+3
+Transistor_Bipolar
+BC847B_SOT23
+
+Bipolar Transistor
+0
+3
+3
+Transistor_Bipolar
+BC856_SOT23
+
+Bipolar Transistor
+0
+3
+3
+Transistor_Bipolar
+BC857B_SOT23
+
+Bipolar Transistor
+0
+3
+3
+Transistor_Bipolar
+BCP55-16_SOT223
+NPN Transistor
+Transistor
+0
+4
+3
+Transistor_Bipolar
+BCP56-16_SOT223
+NPN Transistor
+Transistor
+0
+4
+3
+Transistor_Bipolar
+BCP5310TA_SOT223
+NPN Transistor
+Transistor
+0
+4
+3
+Transistor_Bipolar
+BCW68_SOT23
+PNP Transistor
+Transistor
+0
+3
+3
+Transistor_Bipolar
+BDP947_SOT223
+NPN Transistor
+Transistor
+0
+4
+3
+Transistor_Bipolar
+BFN24_SOT23
+
+Bipolar Transistor
+0
+3
+3
+Transistor_Bipolar
+BST50_51_52_SOT89
+BST50_51_52
+Transistor Darlington
+0
+4
+3
+Transistor_Bipolar
+C8050_TO92
+TO-92 leads molded, narrow, drill 0.75mm (see NXP sot054_po.pdf)
+Reset Device
+0
+3
+3
+Transistor_Bipolar
+C8550_TO92
+TO-92 leads molded, narrow, drill 0.75mm (see NXP sot054_po.pdf)
+Reset Device
+0
+3
+3
+Transistor_Bipolar
+HT882_TO126H
+PNP Transistor
+Transistor
+0
+3
+3
+Transistor_Bipolar
+HT882_TO126V
+PNP Transistor
+Transistor
+0
+3
+3
+Transistor_Bipolar
+KSD882_TO126H
+NPN Transistor
+Transistor
+0
+3
+3
+Transistor_Bipolar
+KSD882_TO126V
+NPN Transistor
+Transistor
+0
+3
+3
+Transistor_Bipolar
+KTC9014_TO92
+TO-92 leads molded, narrow, drill 0.75mm (see NXP sot054_po.pdf)
+Reset Device
+0
+3
+3
+Transistor_Bipolar
+MBT3906DW1T1_SOT_363
+
+Dual PNP General Purpose Transistor
+0
+6
+6
+Transistor_Bipolar
+MTTDT4413-7-F
+SOT-363, SC-70-6
+SOT-363 SC-70-6
+0
+6
+6
+Transistor_Bipolar
+SMBT2907_SOT23
+
+Bipolar Transistor
+0
+3
+3
+Transistor_Bipolar
+ULN2803A
+SOIC (18) 
+Transistor Array
+0
+18
+18

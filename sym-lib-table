@@ -19,4 +19,5 @@
   (lib (name "Inductors")(type "KiCad")(uri "${KICAD_SYMBOL_DIR}/Inductors/Inductors.kicad_sym")(options "")(descr ""))
   (lib (name "Lcd_Backlight_Drivers")(type "KiCad")(uri "${KICAD_SYMBOL_DIR}/Lcd_Backlight_Drivers/Lcd_Backlight_Drivers.kicad_sym")(options "")(descr ""))
   (lib (name "Linear_Regulators")(type "KiCad")(uri "${KICAD_SYMBOL_DIR}/Dc_Dc_Regulators/Linear/Linear_Regulators.kicad_sym")(options "")(descr ""))
+  (lib (name "Transistor_Bipolar")(type "KiCad")(uri "${KICAD_SYMBOL_DIR}/Transistors/Bipolar/Transistor_Bipolar.kicad_sym")(options "")(descr ""))
 )
