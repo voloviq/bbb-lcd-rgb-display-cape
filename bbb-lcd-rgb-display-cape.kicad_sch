@@ -1781,6 +1781,7 @@
     )
   )
 
+
   (junction (at 44.323 159.385) (diameter 1.016) (color 0 0 0 0))
   (junction (at 65.278 107.95) (diameter 1.016) (color 0 0 0 0))
   (junction (at 65.278 132.715) (diameter 1.016) (color 0 0 0 0))
@@ -5665,6 +5666,15 @@
     (path "/7239653c-0379-4c2b-9dee-bf4a7f9a3072/17bb832a-e1f7-4274-8f5d-4387834127a0"
       (reference "R6") (unit 1) (value "10R/1%/0.1Wat") (footprint "Resistor_Smd_0603:10R_0603")
     )
+    (path "/7239653c-0379-4c2b-9dee-bf4a7f9a3072/2e222642-d558-4e98-aae5-33150cbd9ba7"
+      (reference "R20") (unit 1) (value "0R") (footprint "Resistor_Smd_0603:0R_0603")
+    )
+    (path "/7239653c-0379-4c2b-9dee-bf4a7f9a3072/96cf1bc3-d051-4c7a-9f0c-46197da7c587"
+      (reference "R21") (unit 1) (value "0R") (footprint "Resistor_Smd_0603:0R_0603")
+    )
+    (path "/7239653c-0379-4c2b-9dee-bf4a7f9a3072/9b8d77b1-3c35-4eb2-8598-50d945f6992f"
+      (reference "R22") (unit 1) (value "0R") (footprint "Resistor_Smd_0603:0R_0603")
+    )
     (path "/7239653c-0379-4c2b-9dee-bf4a7f9a3072/c0013c2e-eb78-44f7-8837-cede24552c8b"
       (reference "U1") (unit 1) (value "82357120100") (footprint "ESD_Protectors:82357120100")
     )
@@ -5682,9 +5692,6 @@
     )
     (path "/7239653c-0379-4c2b-9dee-bf4a7f9a3072/262480b9-014b-404e-9031-e73ae8aa8bab"
       (reference "U8") (unit 1) (value "AP2127K-2.8TRG1") (footprint "Linear:AP2127K-2.8TRG1_SOT23")
-    )
-    (path "/30a2909b-23b4-4628-b67a-be945294085c/becb1650-d373-45d0-89c1-a0e3a7a17e4a"
-      (reference "#PWR0149") (unit 1) (value "GND") (footprint "")
     )
     (path "/30a2909b-23b4-4628-b67a-be945294085c/38b5e539-c2be-4819-aaf9-5673904778f4"
       (reference "#PWR0150") (unit 1) (value "GND") (footprint "")
@@ -5710,14 +5717,8 @@
     (path "/30a2909b-23b4-4628-b67a-be945294085c/8f7182be-efc1-4a90-9f2c-dbe22e4b18e4"
       (reference "C10") (unit 1) (value "100nF/50V") (footprint "Capacitors_Smd_0603:100nF_0603")
     )
-    (path "/30a2909b-23b4-4628-b67a-be945294085c/676e6950-eab5-4617-9b4c-ceff60cedd37"
-      (reference "D2") (unit 1) (value "SMAJ18CA") (footprint "Diodes:SMAJ18CA_SMD_DO214AC")
-    )
-    (path "/30a2909b-23b4-4628-b67a-be945294085c/c8834f19-6e4c-41d8-a861-4d04770b6c79"
-      (reference "D3") (unit 1) (value "SMAJ18CA") (footprint "Diodes:SMAJ18CA_SMD_DO214AC")
-    )
-    (path "/30a2909b-23b4-4628-b67a-be945294085c/cee5e656-4272-4217-9556-9e9b23887fa7"
-      (reference "D4") (unit 1) (value "SMAJ18CA") (footprint "Diodes:SMAJ18CA_SMD_DO214AC")
+    (path "/30a2909b-23b4-4628-b67a-be945294085c/debf0bb1-ab56-4dd4-8025-8143354876a6"
+      (reference "D2") (unit 1) (value "PESD2CAN") (footprint "ESD_Protectors:PESD2CAN.215")
     )
     (path "/30a2909b-23b4-4628-b67a-be945294085c/ef4b8e92-56b3-4266-87b5-460a9c4f40c4"
       (reference "F1") (unit 1) (value "SN005-60") (footprint "Smd_Ptc_Fuses:SN005-60")
@@ -5752,9 +5753,6 @@
     (path "/ff3a6e0b-2f2a-4058-aa78-87ebc39f8bcf/1bc9e5de-1393-4a64-87a8-012256951d5a"
       (reference "#PWR0180") (unit 1) (value "GND") (footprint "")
     )
-    (path "/ff3a6e0b-2f2a-4058-aa78-87ebc39f8bcf/1baad718-ebe8-45ad-bcf5-687a9ee162ec"
-      (reference "#PWR0181") (unit 1) (value "GND") (footprint "")
-    )
     (path "/ff3a6e0b-2f2a-4058-aa78-87ebc39f8bcf/a9c2485e-4879-4170-bff0-fb5b26742d46"
       (reference "#PWR0182") (unit 1) (value "GND") (footprint "")
     )
@@ -5764,14 +5762,8 @@
     (path "/ff3a6e0b-2f2a-4058-aa78-87ebc39f8bcf/c5dbb792-9cc2-4251-bb25-7d8f97c35d92"
       (reference "C13") (unit 1) (value "100nF/50V") (footprint "Capacitors_Smd_0603:100nF_0603")
     )
-    (path "/ff3a6e0b-2f2a-4058-aa78-87ebc39f8bcf/6e5faf4e-4bfd-41e9-94a9-739a7aff1efb"
-      (reference "D5") (unit 1) (value "SMAJ7.5CA") (footprint "Diodes:SMAJ7.5CA_SMD_DO214AC")
-    )
-    (path "/ff3a6e0b-2f2a-4058-aa78-87ebc39f8bcf/4b75a1f5-700c-44b5-83d3-8748b353fcba"
-      (reference "D6") (unit 1) (value "SMAJ18CA") (footprint "Diodes:SMAJ18CA_SMD_DO214AC")
-    )
-    (path "/ff3a6e0b-2f2a-4058-aa78-87ebc39f8bcf/760004f7-2e48-4259-a00e-8bdeb3c28c71"
-      (reference "D7") (unit 1) (value "SMAJ7.5CA") (footprint "Diodes:SMAJ7.5CA_SMD_DO214AC")
+    (path "/ff3a6e0b-2f2a-4058-aa78-87ebc39f8bcf/aa4ff115-c87e-48b2-b7e1-c490edec57c6"
+      (reference "D3") (unit 1) (value "SM712.TCT") (footprint "ESD_Protectors:SM712.TCT")
     )
     (path "/ff3a6e0b-2f2a-4058-aa78-87ebc39f8bcf/925227e1-442d-4e4a-acb6-68b0891e6559"
       (reference "F3") (unit 1) (value "SN005-60") (footprint "Smd_Ptc_Fuses:SN005-60")

@@ -2,8 +2,8 @@
 <export version="E">
   <design>
     <source>/home/mw/hardware_projects/bbb-lcd-rgb-display-cape/bbb-lcd-rgb-display-cape.kicad_sch</source>
-    <date>Wed 14 Apr 2021 13:11:38 CEST</date>
-    <tool>Eeschema 5.99.0-unknown-296a9df530~125~ubuntu20.04.1</tool>
+    <date>Tue 27 Apr 2021 12:43:25 CEST</date>
+    <tool>Eeschema 5.99.0-unknown-7afc3f7df9~127~ubuntu20.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Beaglebone Black LCD Display cape</title>
@@ -917,6 +917,7 @@
       <footprint>Capacitors_Smd_0603:4_7uF_0603</footprint>
       <datasheet>Smd_0603/Components_Documentation/KEM_C1005_Y5V_SMD.pdf</datasheet>
       <fields>
+        <field name="LCSC Part # (optional)">C307467</field>
         <field name="Manufacturer">SAMSUNG</field>
         <field name="Manufacturer Part Number">CL10A475KQ8NNNC</field>
         <field name="Package">0603</field>
@@ -926,7 +927,7 @@
         <field name="Supplier Part Number">CL10A475KQ8NNNC</field>
         <field name="URL">https://www.tme.eu/pl/details/cl10a475kq8nnnc/kondensatory-mlcc-smd-0603/samsung/</field>
       </fields>
-      <libsource lib="Capacitors_Smd0603" part="4_7uF_0603" description="4_7uF / 6.3V SMD Capacitor"/>
+      <libsource lib="Capacitors_Smd0603" part="4.7uF" description="4.7uF, 6.3V, X5R, 10%, -55°C to +85°C MLCC"/>
       <property name="Manufacturer" value="SAMSUNG"/>
       <property name="Manufacturer Part Number" value="CL10A475KQ8NNNC"/>
       <property name="Supplier" value="TME"/>
@@ -935,6 +936,7 @@
       <property name="Price@1pc" value="0,08590"/>
       <property name="Price@1000pcs" value="0,04518"/>
       <property name="Package" value="0603"/>
+      <property name="LCSC Part # (optional)" value="C307467"/>
       <property name="Sheetname" value="LCD Display"/>
       <property name="Sheetfile" value="lcd_display.kicad_sch"/>
       <sheetpath names="/LCD Display/" tstamps="/7239653c-0379-4c2b-9dee-bf4a7f9a3072/"/>
@@ -1144,6 +1146,102 @@
       <sheetpath names="/LCD Display/" tstamps="/7239653c-0379-4c2b-9dee-bf4a7f9a3072/"/>
       <tstamps>17bb832a-e1f7-4274-8f5d-4387834127a0</tstamps>
     </comp>
+    <comp ref="R20">
+      <value>0R</value>
+      <footprint>Resistor_Smd_0603:0R_0603</footprint>
+      <datasheet>Resistors/Smd_0603/Components_Documentation/Vishay_Resistors_SM0603.pdf</datasheet>
+      <fields>
+        <field name="Developer">MW</field>
+        <field name="LCSC Part #(optional)">C15402</field>
+        <field name="Manufacturer">ROYAL OHM</field>
+        <field name="Manufacturer Part Number">0603SAJ0000T5E</field>
+        <field name="Package">0603</field>
+        <field name="Price@1000pcs">0,00967</field>
+        <field name="Price@1pc">0,03966</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">SMD0603-0R</field>
+        <field name="URL">https://www.tme.eu/pl/details/smd0603-0r/rezystory-smd-0603/royal-ohm/0603saj0000t5e/</field>
+      </fields>
+      <libsource lib="Resistors_Smd0603" part="0R" description="0Ω 0,1W ±5% -55...155°C"/>
+      <property name="Manufacturer" value="ROYAL OHM"/>
+      <property name="Manufacturer Part Number" value="0603SAJ0000T5E"/>
+      <property name="Supplier" value="TME"/>
+      <property name="Supplier Part Number" value="SMD0603-0R"/>
+      <property name="URL" value="https://www.tme.eu/pl/details/smd0603-0r/rezystory-smd-0603/royal-ohm/0603saj0000t5e/"/>
+      <property name="Price@1pc" value="0,03966"/>
+      <property name="Price@1000pcs" value="0,00967"/>
+      <property name="Developer" value="MW"/>
+      <property name="Package" value="0603"/>
+      <property name="LCSC Part #(optional)" value="C15402"/>
+      <property name="Sheetname" value="LCD Display"/>
+      <property name="Sheetfile" value="lcd_display.kicad_sch"/>
+      <sheetpath names="/LCD Display/" tstamps="/7239653c-0379-4c2b-9dee-bf4a7f9a3072/"/>
+      <tstamps>2e222642-d558-4e98-aae5-33150cbd9ba7</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>0R</value>
+      <footprint>Resistor_Smd_0603:0R_0603</footprint>
+      <datasheet>Resistors/Smd_0603/Components_Documentation/Vishay_Resistors_SM0603.pdf</datasheet>
+      <fields>
+        <field name="Developer">MW</field>
+        <field name="LCSC Part #(optional)">C15402</field>
+        <field name="Manufacturer">ROYAL OHM</field>
+        <field name="Manufacturer Part Number">0603SAJ0000T5E</field>
+        <field name="Package">0603</field>
+        <field name="Price@1000pcs">0,00967</field>
+        <field name="Price@1pc">0,03966</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">SMD0603-0R</field>
+        <field name="URL">https://www.tme.eu/pl/details/smd0603-0r/rezystory-smd-0603/royal-ohm/0603saj0000t5e/</field>
+      </fields>
+      <libsource lib="Resistors_Smd0603" part="0R" description="0Ω 0,1W ±5% -55...155°C"/>
+      <property name="Manufacturer" value="ROYAL OHM"/>
+      <property name="Manufacturer Part Number" value="0603SAJ0000T5E"/>
+      <property name="Supplier" value="TME"/>
+      <property name="Supplier Part Number" value="SMD0603-0R"/>
+      <property name="URL" value="https://www.tme.eu/pl/details/smd0603-0r/rezystory-smd-0603/royal-ohm/0603saj0000t5e/"/>
+      <property name="Price@1pc" value="0,03966"/>
+      <property name="Price@1000pcs" value="0,00967"/>
+      <property name="Developer" value="MW"/>
+      <property name="Package" value="0603"/>
+      <property name="LCSC Part #(optional)" value="C15402"/>
+      <property name="Sheetname" value="LCD Display"/>
+      <property name="Sheetfile" value="lcd_display.kicad_sch"/>
+      <sheetpath names="/LCD Display/" tstamps="/7239653c-0379-4c2b-9dee-bf4a7f9a3072/"/>
+      <tstamps>96cf1bc3-d051-4c7a-9f0c-46197da7c587</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>0R</value>
+      <footprint>Resistor_Smd_0603:0R_0603</footprint>
+      <datasheet>Resistors/Smd_0603/Components_Documentation/Vishay_Resistors_SM0603.pdf</datasheet>
+      <fields>
+        <field name="Developer">MW</field>
+        <field name="LCSC Part #(optional)">C15402</field>
+        <field name="Manufacturer">ROYAL OHM</field>
+        <field name="Manufacturer Part Number">0603SAJ0000T5E</field>
+        <field name="Package">0603</field>
+        <field name="Price@1000pcs">0,00967</field>
+        <field name="Price@1pc">0,03966</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">SMD0603-0R</field>
+        <field name="URL">https://www.tme.eu/pl/details/smd0603-0r/rezystory-smd-0603/royal-ohm/0603saj0000t5e/</field>
+      </fields>
+      <libsource lib="Resistors_Smd0603" part="0R" description="0Ω 0,1W ±5% -55...155°C"/>
+      <property name="Manufacturer" value="ROYAL OHM"/>
+      <property name="Manufacturer Part Number" value="0603SAJ0000T5E"/>
+      <property name="Supplier" value="TME"/>
+      <property name="Supplier Part Number" value="SMD0603-0R"/>
+      <property name="URL" value="https://www.tme.eu/pl/details/smd0603-0r/rezystory-smd-0603/royal-ohm/0603saj0000t5e/"/>
+      <property name="Price@1pc" value="0,03966"/>
+      <property name="Price@1000pcs" value="0,00967"/>
+      <property name="Developer" value="MW"/>
+      <property name="Package" value="0603"/>
+      <property name="LCSC Part #(optional)" value="C15402"/>
+      <property name="Sheetname" value="LCD Display"/>
+      <property name="Sheetfile" value="lcd_display.kicad_sch"/>
+      <sheetpath names="/LCD Display/" tstamps="/7239653c-0379-4c2b-9dee-bf4a7f9a3072/"/>
+      <tstamps>9b8d77b1-3c35-4eb2-8598-50d945f6992f</tstamps>
+    </comp>
     <comp ref="U1">
       <value>82357120100</value>
       <footprint>ESD_Protectors:82357120100</footprint>
@@ -1305,34 +1403,36 @@
       <tstamps>8f7182be-efc1-4a90-9f2c-dbe22e4b18e4</tstamps>
     </comp>
     <comp ref="D2">
-      <value>SMAJ18CA</value>
-      <footprint>Diodes:SMAJ18CA_SMD_DO214AC</footprint>
-      <datasheet>D:/Git_Kicad_Library/Schematic/Diodes/Components_Documentation/Littelfuse_TVS-Diode_SMAJ.pdf</datasheet>
-      <libsource lib="Diodes" part="SMAJ18CA" description="18V Two Directions Transient Voltage Suppression Diode, Surface Mount - 400W &gt; SMAJ series"/>
+      <value>PESD2CAN</value>
+      <footprint>ESD_Protectors:PESD2CAN.215</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/PESD2CAN.pdf</datasheet>
+      <fields>
+        <field name="Developer">MW</field>
+        <field name="LCSC Part #(optional)">C75176</field>
+        <field name="Manufacturer">NEXPERIA</field>
+        <field name="Manufacturer Part Number">PESD2CAN.215</field>
+        <field name="Package">SOT23-3</field>
+        <field name="Price@1000pcs">0,41100</field>
+        <field name="Price@1pc">0,63791</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">PESD2CAN.215 </field>
+        <field name="URL">https://www.tme.eu/pl/en/details/pesd2can.215/bidirectional-smd-transil-diodes/nexperia/</field>
+      </fields>
+      <libsource lib="esd_protectors" part="PESD2CAN" description="TVS diode for CAN Bus, 230W, 28V, 5A, bidirectional, common cathode, double"/>
+      <property name="Manufacturer" value="NEXPERIA"/>
+      <property name="Manufacturer Part Number" value="PESD2CAN.215"/>
+      <property name="Supplier" value="TME"/>
+      <property name="Supplier Part Number" value="PESD2CAN.215 "/>
+      <property name="URL" value="https://www.tme.eu/pl/en/details/pesd2can.215/bidirectional-smd-transil-diodes/nexperia/"/>
+      <property name="Price@1pc" value="0,63791"/>
+      <property name="Price@1000pcs" value="0,41100"/>
+      <property name="Developer" value="MW"/>
+      <property name="Package" value="SOT23-3"/>
+      <property name="LCSC Part #(optional)" value="C75176"/>
       <property name="Sheetname" value="CAN"/>
       <property name="Sheetfile" value="can-bus.kicad_sch"/>
       <sheetpath names="/CAN/" tstamps="/30a2909b-23b4-4628-b67a-be945294085c/"/>
-      <tstamps>676e6950-eab5-4617-9b4c-ceff60cedd37</tstamps>
-    </comp>
-    <comp ref="D3">
-      <value>SMAJ18CA</value>
-      <footprint>Diodes:SMAJ18CA_SMD_DO214AC</footprint>
-      <datasheet>D:/Git_Kicad_Library/Schematic/Diodes/Components_Documentation/Littelfuse_TVS-Diode_SMAJ.pdf</datasheet>
-      <libsource lib="Diodes" part="SMAJ18CA" description="18V Two Directions Transient Voltage Suppression Diode, Surface Mount - 400W &gt; SMAJ series"/>
-      <property name="Sheetname" value="CAN"/>
-      <property name="Sheetfile" value="can-bus.kicad_sch"/>
-      <sheetpath names="/CAN/" tstamps="/30a2909b-23b4-4628-b67a-be945294085c/"/>
-      <tstamps>c8834f19-6e4c-41d8-a861-4d04770b6c79</tstamps>
-    </comp>
-    <comp ref="D4">
-      <value>SMAJ18CA</value>
-      <footprint>Diodes:SMAJ18CA_SMD_DO214AC</footprint>
-      <datasheet>D:/Git_Kicad_Library/Schematic/Diodes/Components_Documentation/Littelfuse_TVS-Diode_SMAJ.pdf</datasheet>
-      <libsource lib="Diodes" part="SMAJ18CA" description="18V Two Directions Transient Voltage Suppression Diode, Surface Mount - 400W &gt; SMAJ series"/>
-      <property name="Sheetname" value="CAN"/>
-      <property name="Sheetfile" value="can-bus.kicad_sch"/>
-      <sheetpath names="/CAN/" tstamps="/30a2909b-23b4-4628-b67a-be945294085c/"/>
-      <tstamps>cee5e656-4272-4217-9556-9e9b23887fa7</tstamps>
+      <tstamps>debf0bb1-ab56-4dd4-8025-8143354876a6</tstamps>
     </comp>
     <comp ref="F1">
       <value>SN005-60</value>
@@ -1516,95 +1616,37 @@
       <sheetpath names="/RS485/" tstamps="/ff3a6e0b-2f2a-4058-aa78-87ebc39f8bcf/"/>
       <tstamps>c5dbb792-9cc2-4251-bb25-7d8f97c35d92</tstamps>
     </comp>
-    <comp ref="D5">
-      <value>SMAJ7.5CA</value>
-      <footprint>Diodes:SMAJ7.5CA_SMD_DO214AC</footprint>
-      <datasheet>Diodes/Components_Documentation/Littelfuse_TVS-Diode_SMAJ.pdf</datasheet>
+    <comp ref="D3">
+      <value>SM712.TCT</value>
+      <footprint>ESD_Protectors:SM712.TCT</footprint>
+      <datasheet>https://www.tme.eu/Document/5ddf860d9de4c5ef754fa789c5d0509e/SM712.pdf</datasheet>
       <fields>
-        <field name="Manufacturer">Littelfuse</field>
-        <field name="Manufacturer Part Number">SMAJ7.5CA</field>
-        <field name="Package">DO-214AC</field>
-        <field name="Price@1000pcs">0,59</field>
-        <field name="Price@1pc">1,70</field>
-        <field name="Supplier">Mouser</field>
-        <field name="Supplier Part Number">576-SMAJ7.5CA</field>
-        <field name="URL">https://pl.mouser.com/ProductDetail/Littelfuse/SMAJ75CA?qs=JJML70Qc14uqGQGE3bPdBw%3D%3D</field>
-        <field name="Variant">+basic,+full,+minipcie</field>
+        <field name="Developer">MW</field>
+        <field name="LCSC Part #(optional)">C12067</field>
+        <field name="Manufacturer">SEMTECH</field>
+        <field name="Manufacturer Part Number">SM712.TCT</field>
+        <field name="Package">SOT23-3</field>
+        <field name="Price@1000pcs">1,3444</field>
+        <field name="Price@1pc">3,0126</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">SM712.TCT</field>
+        <field name="URL">https://www.tme.eu/pl/details/sm712.tct/diody-zabezpieczajace-drabinki/semtech/</field>
       </fields>
-      <libsource lib="Diodes" part="SMAJ7.5CA" description="7.5V Two Directions Transient Voltage Suppression Diode, Surface Mount - 400W &gt; SMAJ series"/>
-      <property name="Manufacturer" value="Littelfuse"/>
-      <property name="Manufacturer Part Number" value="SMAJ7.5CA"/>
-      <property name="Supplier" value="Mouser"/>
-      <property name="Supplier Part Number" value="576-SMAJ7.5CA"/>
-      <property name="URL" value="https://pl.mouser.com/ProductDetail/Littelfuse/SMAJ75CA?qs=JJML70Qc14uqGQGE3bPdBw%3D%3D"/>
-      <property name="Price@1pc" value="1,70"/>
-      <property name="Price@1000pcs" value="0,59"/>
-      <property name="Variant" value="+basic,+full,+minipcie"/>
-      <property name="Package" value="DO-214AC"/>
+      <libsource lib="esd_protectors" part="SM712.TCT" description="Asymmetrical TVS Diode for Extended Common-Mode RS-485"/>
+      <property name="Manufacturer" value="SEMTECH"/>
+      <property name="Manufacturer Part Number" value="SM712.TCT"/>
+      <property name="Supplier" value="TME"/>
+      <property name="Supplier Part Number" value="SM712.TCT"/>
+      <property name="URL" value="https://www.tme.eu/pl/details/sm712.tct/diody-zabezpieczajace-drabinki/semtech/"/>
+      <property name="Price@1pc" value="3,0126"/>
+      <property name="Price@1000pcs" value="1,3444"/>
+      <property name="Developer" value="MW"/>
+      <property name="Package" value="SOT23-3"/>
+      <property name="LCSC Part #(optional)" value="C12067"/>
       <property name="Sheetname" value="RS485"/>
       <property name="Sheetfile" value="rs485.kicad_sch"/>
       <sheetpath names="/RS485/" tstamps="/ff3a6e0b-2f2a-4058-aa78-87ebc39f8bcf/"/>
-      <tstamps>6e5faf4e-4bfd-41e9-94a9-739a7aff1efb</tstamps>
-    </comp>
-    <comp ref="D6">
-      <value>SMAJ18CA</value>
-      <footprint>Diodes:SMAJ18CA_SMD_DO214AC</footprint>
-      <datasheet>Diodes/Components_Documentation/Littelfuse_TVS-Diode_SMAJ.pdf</datasheet>
-      <fields>
-        <field name="Manufacturer">Littelfuse</field>
-        <field name="Manufacturer Part Number">SMAJ18CA</field>
-        <field name="Package">DO-214AC</field>
-        <field name="Price@1000pcs">0,43</field>
-        <field name="Price@1pc">1,59</field>
-        <field name="Supplier">Mouser</field>
-        <field name="Supplier Part Number">576-SMAJ18CA</field>
-        <field name="URL">https://pl.mouser.com/ProductDetail/Littelfuse/SMAJ18CA?qs=2VFNtWizgidyVRPSWGEQ0w%3D%3D</field>
-        <field name="Variant">+basic,+full,+minipcie</field>
-      </fields>
-      <libsource lib="Diodes" part="SMAJ18CA" description="18V Two Directions Transient Voltage Suppression Diode, Surface Mount - 400W &gt; SMAJ series"/>
-      <property name="Manufacturer" value="Littelfuse"/>
-      <property name="Manufacturer Part Number" value="SMAJ18CA"/>
-      <property name="Supplier" value="Mouser"/>
-      <property name="Supplier Part Number" value="576-SMAJ18CA"/>
-      <property name="URL" value="https://pl.mouser.com/ProductDetail/Littelfuse/SMAJ18CA?qs=2VFNtWizgidyVRPSWGEQ0w%3D%3D"/>
-      <property name="Price@1pc" value="1,59"/>
-      <property name="Price@1000pcs" value="0,43"/>
-      <property name="Variant" value="+basic,+full,+minipcie"/>
-      <property name="Package" value="DO-214AC"/>
-      <property name="Sheetname" value="RS485"/>
-      <property name="Sheetfile" value="rs485.kicad_sch"/>
-      <sheetpath names="/RS485/" tstamps="/ff3a6e0b-2f2a-4058-aa78-87ebc39f8bcf/"/>
-      <tstamps>4b75a1f5-700c-44b5-83d3-8748b353fcba</tstamps>
-    </comp>
-    <comp ref="D7">
-      <value>SMAJ7.5CA</value>
-      <footprint>Diodes:SMAJ7.5CA_SMD_DO214AC</footprint>
-      <datasheet>Diodes/Components_Documentation/Littelfuse_TVS-Diode_SMAJ.pdf</datasheet>
-      <fields>
-        <field name="Manufacturer">Littelfuse</field>
-        <field name="Manufacturer Part Number">SMAJ7.5CA</field>
-        <field name="Package">DO-214AC</field>
-        <field name="Price@1000pcs">0,59</field>
-        <field name="Price@1pc">1,70</field>
-        <field name="Supplier">Mouser</field>
-        <field name="Supplier Part Number">576-SMAJ7.5CA</field>
-        <field name="URL">https://pl.mouser.com/ProductDetail/Littelfuse/SMAJ75CA?qs=JJML70Qc14uqGQGE3bPdBw%3D%3D</field>
-        <field name="Variant">+basic,+full,+minipcie</field>
-      </fields>
-      <libsource lib="Diodes" part="SMAJ7.5CA" description="7.5V Two Directions Transient Voltage Suppression Diode, Surface Mount - 400W &gt; SMAJ series"/>
-      <property name="Manufacturer" value="Littelfuse"/>
-      <property name="Manufacturer Part Number" value="SMAJ7.5CA"/>
-      <property name="Supplier" value="Mouser"/>
-      <property name="Supplier Part Number" value="576-SMAJ7.5CA"/>
-      <property name="URL" value="https://pl.mouser.com/ProductDetail/Littelfuse/SMAJ75CA?qs=JJML70Qc14uqGQGE3bPdBw%3D%3D"/>
-      <property name="Price@1pc" value="1,70"/>
-      <property name="Price@1000pcs" value="0,59"/>
-      <property name="Variant" value="+basic,+full,+minipcie"/>
-      <property name="Package" value="DO-214AC"/>
-      <property name="Sheetname" value="RS485"/>
-      <property name="Sheetfile" value="rs485.kicad_sch"/>
-      <sheetpath names="/RS485/" tstamps="/ff3a6e0b-2f2a-4058-aa78-87ebc39f8bcf/"/>
-      <tstamps>760004f7-2e48-4259-a00e-8bdeb3c28c71</tstamps>
+      <tstamps>aa4ff115-c87e-48b2-b7e1-c490edec57c6</tstamps>
     </comp>
     <comp ref="F3">
       <value>SN005-60</value>
@@ -1816,15 +1858,15 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Capacitors_Smd0603" part="4_7uF_0603">
-      <description>4_7uF / 6.3V SMD Capacitor</description>
+    <libpart lib="Capacitors_Smd0603" part="4.7uF">
+      <description>4.7uF, 6.3V, X5R, 10%, -55°C to +85°C MLCC</description>
       <docs>Smd_0603/Components_Documentation/KEM_C1005_Y5V_SMD.pdf</docs>
       <footprints>
         <fp>4_7uF_0603</fp>
       </footprints>
       <fields>
         <field name="Reference">C</field>
-        <field name="Value">4_7uF_0603</field>
+        <field name="Value">4.7uF</field>
         <field name="Datasheet">Smd_0603/Components_Documentation/KEM_C1005_Y5V_SMD.pdf</field>
         <field name="Manufacturer">SAMSUNG</field>
         <field name="Manufacturer Part Number">CL10A475KQ8NNNC</field>
@@ -2025,54 +2067,6 @@
       <pins>
         <pin num="1" name="K" type="passive"/>
         <pin num="2" name="A" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Diodes" part="SMAJ18CA">
-      <description>18V Two Directions Transient Voltage Suppression Diode, Surface Mount - 400W &gt; SMAJ series</description>
-      <docs>Diodes/Components_Documentation/Littelfuse_TVS-Diode_SMAJ.pdf</docs>
-      <footprints>
-        <fp>SMAJ18CA_SMD_DO214AC</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">SMAJ18CA</field>
-        <field name="Datasheet">Diodes/Components_Documentation/Littelfuse_TVS-Diode_SMAJ.pdf</field>
-        <field name="Manufacturer">Littelfuse</field>
-        <field name="Manufacturer Part Number">SMAJ18CA</field>
-        <field name="Supplier">Mouser</field>
-        <field name="Supplier Part Number">576-SMAJ18CA</field>
-        <field name="URL">https://pl.mouser.com/ProductDetail/Littelfuse/SMAJ18CA?qs=2VFNtWizgidyVRPSWGEQ0w%3D%3D</field>
-        <field name="Price@1pc">1,59</field>
-        <field name="Price@1000pcs">0,43</field>
-        <field name="Package">DO-214AC</field>
-      </fields>
-      <pins>
-        <pin num="1" name="A" type="passive"/>
-        <pin num="2" name="K" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Diodes" part="SMAJ7.5CA">
-      <description>7.5V Two Directions Transient Voltage Suppression Diode, Surface Mount - 400W &gt; SMAJ series</description>
-      <docs>Diodes/Components_Documentation/Littelfuse_TVS-Diode_SMAJ.pdf</docs>
-      <footprints>
-        <fp>SMAJ7.5CA_SMD_DO214AC</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">SMAJ7.5CA</field>
-        <field name="Datasheet">Diodes/Components_Documentation/Littelfuse_TVS-Diode_SMAJ.pdf</field>
-        <field name="Manufacturer">Littelfuse</field>
-        <field name="Manufacturer Part Number">SMAJ7.5CA</field>
-        <field name="Supplier">Mouser</field>
-        <field name="Supplier Part Number">576-SMAJ7.5CA</field>
-        <field name="URL">https://pl.mouser.com/ProductDetail/Littelfuse/SMAJ75CA?qs=JJML70Qc14uqGQGE3bPdBw%3D%3D</field>
-        <field name="Price@1pc">1,70</field>
-        <field name="Price@1000pcs">0,59</field>
-        <field name="Package">DO-214AC</field>
-      </fields>
-      <pins>
-        <pin num="1" name="A" type="passive"/>
-        <pin num="2" name="K" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Discrete_Connectors" part="DG301-5.0-03P-12-00A(H)">
@@ -2311,6 +2305,33 @@
         <pin num="2" name="~" type="input"/>
       </pins>
     </libpart>
+    <libpart lib="Resistors_Smd0603" part="0R">
+      <description>0Ω 0,1W ±5% -55...155°C</description>
+      <docs>Resistors/Smd_0603/Components_Documentation/Vishay_Resistors_SM0603.pdf</docs>
+      <footprints>
+        <fp>0R_0603</fp>
+        <fp>0R_pcb_0603_fashion</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">0R</field>
+        <field name="Datasheet">Resistors/Smd_0603/Components_Documentation/Vishay_Resistors_SM0603.pdf</field>
+        <field name="Manufacturer">ROYAL OHM</field>
+        <field name="Manufacturer Part Number">0603SAJ0000T5E</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">SMD0603-0R</field>
+        <field name="URL">https://www.tme.eu/pl/details/smd0603-0r/rezystory-smd-0603/royal-ohm/0603saj0000t5e/</field>
+        <field name="Price@1pc">0,03966</field>
+        <field name="Price@1000pcs">0,00967</field>
+        <field name="Developer">MW</field>
+        <field name="Package">0603</field>
+        <field name="LCSC Part #(optional)">C15402</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Resistors_Smd0603" part="100R">
       <description>100Ω 0,1W ±1% -55...155°C</description>
       <docs>https://www.tme.eu/Document/ec37243ca557adb02ebafc5c1ab83104/CQ%20datasheet.pdf</docs>
@@ -2538,13 +2559,115 @@
         <fp>82357120100</fp>
       </footprints>
       <fields>
-        <field name="Reference">U</field>
+        <field name="Reference">D</field>
         <field name="Value">82357120100</field>
         <field name="Datasheet">C:/Wiktor/KiCad/KiCadWolowik/Schematic/ESD_Protectors/Components_Documentation/82357120100.pdf</field>
       </fields>
       <pins>
         <pin num="1" name="A" type="passive"/>
         <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="esd_protectors" part="82357120100_1">
+      <description>SMD 0402 C=10pF Vdc=12V Wuerth ESD Suppressor</description>
+      <docs>C:/Wiktor/KiCad/KiCadWolowik/Schematic/ESD_Protectors/Components_Documentation/82357120100.pdf</docs>
+      <footprints>
+        <fp>82357120100</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">82357120100</field>
+        <field name="Datasheet">C:/Wiktor/KiCad/KiCadWolowik/Schematic/ESD_Protectors/Components_Documentation/82357120100.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="esd_protectors" part="82357120100_2">
+      <description>SMD 0402 C=10pF Vdc=12V Wuerth ESD Suppressor</description>
+      <docs>C:/Wiktor/KiCad/KiCadWolowik/Schematic/ESD_Protectors/Components_Documentation/82357120100.pdf</docs>
+      <footprints>
+        <fp>82357120100</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">82357120100</field>
+        <field name="Datasheet">C:/Wiktor/KiCad/KiCadWolowik/Schematic/ESD_Protectors/Components_Documentation/82357120100.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="esd_protectors" part="82357120100_3">
+      <description>SMD 0402 C=10pF Vdc=12V Wuerth ESD Suppressor</description>
+      <docs>C:/Wiktor/KiCad/KiCadWolowik/Schematic/ESD_Protectors/Components_Documentation/82357120100.pdf</docs>
+      <footprints>
+        <fp>82357120100</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">82357120100</field>
+        <field name="Datasheet">C:/Wiktor/KiCad/KiCadWolowik/Schematic/ESD_Protectors/Components_Documentation/82357120100.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="esd_protectors" part="PESD2CAN">
+      <description>TVS diode for CAN Bus, 230W, 28V, 5A, bidirectional, common cathode, double</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/PESD2CAN.pdf</docs>
+      <footprints>
+        <fp>PESD2CAN.215</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">PESD2CAN</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/PESD2CAN.pdf</field>
+        <field name="Manufacturer">NEXPERIA</field>
+        <field name="Manufacturer Part Number">PESD2CAN.215</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">PESD2CAN.215 </field>
+        <field name="URL">https://www.tme.eu/pl/en/details/pesd2can.215/bidirectional-smd-transil-diodes/nexperia/</field>
+        <field name="Price@1pc">0,63791</field>
+        <field name="Price@1000pcs">0,41100</field>
+        <field name="Developer">MW</field>
+        <field name="Package">SOT23-3</field>
+        <field name="LCSC Part #(optional)">C75176</field>
+      </fields>
+      <pins>
+        <pin num="1" name="I/O1" type="bidirectional"/>
+        <pin num="2" name="I/O2" type="bidirectional"/>
+        <pin num="3" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="esd_protectors" part="SM712.TCT">
+      <description>Asymmetrical TVS Diode for Extended Common-Mode RS-485</description>
+      <docs>https://www.tme.eu/Document/5ddf860d9de4c5ef754fa789c5d0509e/SM712.pdf</docs>
+      <footprints>
+        <fp>SM712.TCT</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">SM712.TCT</field>
+        <field name="Datasheet">https://www.tme.eu/Document/5ddf860d9de4c5ef754fa789c5d0509e/SM712.pdf</field>
+        <field name="Manufacturer">SEMTECH</field>
+        <field name="Manufacturer Part Number">SM712.TCT</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">SM712.TCT</field>
+        <field name="URL">https://www.tme.eu/pl/details/sm712.tct/diody-zabezpieczajace-drabinki/semtech/</field>
+        <field name="Price@1pc">3,0126</field>
+        <field name="Price@1000pcs">1,3444</field>
+        <field name="Developer">MW</field>
+        <field name="Package">SOT23-3</field>
+        <field name="LCSC Part #(optional)">C12067</field>
+      </fields>
+      <pins>
+        <pin num="1" name="I/O1" type="bidirectional"/>
+        <pin num="2" name="I/O2" type="bidirectional"/>
+        <pin num="3" name="GND" type="power_in"/>
       </pins>
     </libpart>
   </libparts>
@@ -2745,8 +2868,7 @@
     <net code="35" name="/LCD Display/BACKLIGHT_HIGH">
       <node ref="C8" pin="1" pintype="passive"/>
       <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="P1" pin="1" pinfunction="P1" pintype="passive"/>
-      <node ref="P1" pin="34" pinfunction="P4" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
     </net>
     <net code="36" name="/LCD Display/BACKLIGHT_LOW">
       <node ref="C3" pin="1" pintype="passive"/>
@@ -2755,82 +2877,88 @@
       <node ref="R6" pin="1" pintype="passive"/>
       <node ref="U7" pin="3" pinfunction="FB" pintype="input"/>
     </net>
-    <net code="37" name="/PCLK">
+    <net code="37" name="/LCD Display/BACKLIGHT_VDD">
+      <node ref="P1" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+    </net>
+    <net code="38" name="/PCLK">
       <node ref="P1" pin="27" pinfunction="P7" pintype="passive"/>
       <node ref="P8" pin="28" pinfunction="Pin_28" pintype="passive"/>
     </net>
-    <net code="38" name="/PWR_BUT">
+    <net code="39" name="/PWR_BUT">
       <node ref="P9" pin="9" pinfunction="Pin_9" pintype="passive"/>
       <node ref="R12" pin="2" pintype="passive"/>
       <node ref="Sw1" pin="1" pintype="input"/>
     </net>
-    <net code="39" name="/R0">
+    <net code="40" name="/R0">
       <node ref="P8" pin="16" pinfunction="Pin_16" pintype="passive"/>
     </net>
-    <net code="40" name="/R1">
+    <net code="41" name="/R1">
       <node ref="P1" pin="20" pinfunction="P10" pintype="passive"/>
-      <node ref="P1" pin="21" pinfunction="P1" pintype="passive"/>
-      <node ref="P1" pin="22" pinfunction="P2" pintype="passive"/>
-      <node ref="P1" pin="23" pinfunction="P3" pintype="passive"/>
-      <node ref="P1" pin="24" pinfunction="P4" pintype="passive"/>
       <node ref="P8" pin="15" pinfunction="Pin_15" pintype="passive"/>
     </net>
-    <net code="41" name="/R2">
+    <net code="42" name="/R2">
+      <node ref="P1" pin="21" pinfunction="P1" pintype="passive"/>
       <node ref="P8" pin="32" pinfunction="Pin_32" pintype="passive"/>
     </net>
-    <net code="42" name="/R3">
+    <net code="43" name="/R3">
+      <node ref="P1" pin="22" pinfunction="P2" pintype="passive"/>
       <node ref="P8" pin="31" pinfunction="Pin_31" pintype="passive"/>
     </net>
-    <net code="43" name="/R4">
+    <net code="44" name="/R4">
+      <node ref="P1" pin="23" pinfunction="P3" pintype="passive"/>
       <node ref="P8" pin="33" pinfunction="Pin_33" pintype="passive"/>
     </net>
-    <net code="44" name="/R5">
+    <net code="45" name="/R5">
+      <node ref="P1" pin="24" pinfunction="P4" pintype="passive"/>
       <node ref="P8" pin="35" pinfunction="Pin_35" pintype="passive"/>
     </net>
-    <net code="45" name="/RS485/RS485_A">
+    <net code="46" name="/RS485/RS485_A">
       <node ref="F4" pin="2" pintype="input"/>
       <node ref="P12" pin="1" pintype="passive"/>
     </net>
-    <net code="46" name="/RS485/RS485_B">
+    <net code="47" name="/RS485/RS485_B">
       <node ref="F3" pin="2" pintype="input"/>
       <node ref="P12" pin="2" pintype="passive"/>
     </net>
-    <net code="47" name="/SPI1_CS0">
+    <net code="48" name="/SPI1_CS0">
       <node ref="P9" pin="28" pinfunction="Pin_28" pintype="passive"/>
     </net>
-    <net code="48" name="/SPI1_CS1">
+    <net code="49" name="/SPI1_CS1">
       <node ref="P1" pin="5" pinfunction="P5" pintype="passive"/>
       <node ref="P9" pin="42" pinfunction="Pin_42" pintype="passive"/>
     </net>
-    <net code="49" name="/SPI1_MISO">
+    <net code="50" name="/SPI1_MISO">
       <node ref="P9" pin="29" pinfunction="Pin_29" pintype="passive"/>
     </net>
-    <net code="50" name="/SPI1_MOSI">
+    <net code="51" name="/SPI1_MOSI">
       <node ref="P1" pin="7" pinfunction="P7" pintype="passive"/>
       <node ref="P9" pin="30" pinfunction="Pin_30" pintype="passive"/>
     </net>
-    <net code="51" name="/SPI1_SCK">
+    <net code="52" name="/SPI1_SCK">
       <node ref="P1" pin="6" pinfunction="P6" pintype="passive"/>
       <node ref="P9" pin="31" pinfunction="Pin_31" pintype="passive"/>
     </net>
-    <net code="52" name="/SYS_RESETN">
+    <net code="53" name="/SYS_RESETN">
       <node ref="P9" pin="10" pinfunction="Pin_10" pintype="passive"/>
       <node ref="R16" pin="2" pintype="passive"/>
       <node ref="Sw2" pin="1" pintype="input"/>
     </net>
-    <net code="53" name="/UART4_RX">
+    <net code="54" name="/UART4_RX">
       <node ref="P9" pin="11" pinfunction="Pin_11" pintype="passive"/>
       <node ref="U10" pin="1" pinfunction="RO" pintype="output"/>
     </net>
-    <net code="54" name="/UART4_TX">
+    <net code="55" name="/UART4_TX">
       <node ref="P9" pin="13" pinfunction="Pin_13" pintype="passive"/>
       <node ref="U10" pin="4" pinfunction="DI" pintype="input"/>
     </net>
-    <net code="55" name="/VSYNC">
+    <net code="56" name="/VSYNC">
       <node ref="P1" pin="29" pinfunction="P9" pintype="passive"/>
       <node ref="P8" pin="27" pinfunction="Pin_27" pintype="passive"/>
     </net>
-    <net code="56" name="2V8">
+    <net code="57" name="2V8">
       <node ref="C1" pin="1" pintype="passive"/>
       <node ref="C2" pin="1" pintype="passive"/>
       <node ref="C4" pin="1" pintype="passive"/>
@@ -2841,7 +2969,7 @@
       <node ref="R1" pin="1" pintype="passive"/>
       <node ref="U8" pin="2" pinfunction="Vout" pintype="passive"/>
     </net>
-    <net code="57" name="3V3">
+    <net code="58" name="3V3">
       <node ref="C11" pin="1" pintype="passive"/>
       <node ref="C12" pin="1" pintype="passive"/>
       <node ref="C13" pin="1" pintype="passive"/>
@@ -2861,18 +2989,19 @@
       <node ref="U6" pin="8" pinfunction="VDD" pintype="power_in"/>
       <node ref="U9" pin="5" pinfunction="V33V" pintype="power_in"/>
     </net>
-    <net code="58" name="5V">
+    <net code="59" name="5V">
       <node ref="C5" pin="1" pintype="passive"/>
       <node ref="C6" pin="1" pintype="passive"/>
       <node ref="C9" pin="1" pintype="passive"/>
       <node ref="L1" pin="1" pintype="passive"/>
       <node ref="P9" pin="5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="P9" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
       <node ref="U7" pin="5" pinfunction="VIN" pintype="power_in"/>
       <node ref="U8" pin="3" pinfunction="Vin" pintype="passive"/>
       <node ref="U9" pin="3" pinfunction="VCC" pintype="power_in"/>
     </net>
-    <net code="59" name="GND">
+    <net code="60" name="GND">
       <node ref="C1" pin="2" pintype="passive"/>
       <node ref="C10" pin="2" pintype="passive"/>
       <node ref="C11" pin="2" pintype="passive"/>
@@ -2889,10 +3018,8 @@
       <node ref="D10" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="D11" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="D12" pin="1" pinfunction="A" pintype="passive"/>
-      <node ref="D2" pin="1" pinfunction="A" pintype="passive"/>
-      <node ref="D4" pin="2" pinfunction="K" pintype="passive"/>
-      <node ref="D5" pin="1" pinfunction="A" pintype="passive"/>
-      <node ref="D7" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="D3" pin="3" pinfunction="GND" pintype="power_in"/>
       <node ref="P1" pin="3" pinfunction="P3" pintype="passive"/>
       <node ref="P1" pin="31" pinfunction="P1" pintype="passive"/>
       <node ref="P1" pin="35" pinfunction="P5" pintype="passive"/>
@@ -2927,209 +3054,209 @@
       <node ref="U9" pin="2" pinfunction="GND" pintype="power_in"/>
       <node ref="U9" pin="8" pinfunction="INH" pintype="input"/>
     </net>
-    <net code="60" name="GNDA">
+    <net code="61" name="GNDA">
       <node ref="P9" pin="34" pinfunction="Pin_34" pintype="passive"/>
     </net>
-    <net code="61" name="Net-(C10-Pad1)">
+    <net code="62" name="Net-(C10-Pad1)">
       <node ref="C10" pin="1" pintype="passive"/>
       <node ref="R7" pin="2" pintype="passive"/>
       <node ref="R8" pin="1" pintype="passive"/>
     </net>
-    <net code="62" name="Net-(D1-Pad2)">
+    <net code="63" name="Net-(D1-Pad2)">
       <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="L1" pin="2" pintype="passive"/>
       <node ref="U7" pin="1" pinfunction="SW" pintype="output"/>
     </net>
-    <net code="63" name="Net-(D2-Pad2)">
-      <node ref="D2" pin="2" pinfunction="K" pintype="passive"/>
-      <node ref="D3" pin="1" pinfunction="A" pintype="passive"/>
-      <node ref="F1" pin="1" pintype="input"/>
-      <node ref="P3" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="U9" pin="7" pinfunction="CANH" pintype="bidirectional"/>
-    </net>
-    <net code="64" name="Net-(D3-Pad2)">
-      <node ref="D3" pin="2" pinfunction="K" pintype="passive"/>
-      <node ref="D4" pin="1" pinfunction="A" pintype="passive"/>
+    <net code="64" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1" pinfunction="I/O1" pintype="bidirectional"/>
       <node ref="F2" pin="1" pintype="input"/>
       <node ref="P4" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U9" pin="6" pinfunction="CANL" pintype="bidirectional"/>
     </net>
-    <net code="65" name="Net-(D5-Pad2)">
-      <node ref="D5" pin="2" pinfunction="K" pintype="passive"/>
-      <node ref="D6" pin="1" pinfunction="A" pintype="passive"/>
-      <node ref="F3" pin="1" pintype="input"/>
-      <node ref="R9" pin="1" pintype="passive"/>
+    <net code="65" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2" pinfunction="I/O2" pintype="bidirectional"/>
+      <node ref="F1" pin="1" pintype="input"/>
+      <node ref="P3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U9" pin="7" pinfunction="CANH" pintype="bidirectional"/>
     </net>
-    <net code="66" name="Net-(D6-Pad2)">
-      <node ref="D6" pin="2" pinfunction="K" pintype="passive"/>
-      <node ref="D7" pin="1" pinfunction="A" pintype="passive"/>
+    <net code="66" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1" pinfunction="I/O1" pintype="bidirectional"/>
       <node ref="F4" pin="1" pintype="input"/>
       <node ref="R10" pin="1" pintype="passive"/>
     </net>
-    <net code="67" name="Net-(D10-Pad2)">
+    <net code="67" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2" pinfunction="I/O2" pintype="bidirectional"/>
+      <node ref="F3" pin="1" pintype="input"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="68" name="Net-(D10-Pad2)">
       <node ref="D10" pin="2" pinfunction="K" pintype="passive"/>
       <node ref="R13" pin="2" pintype="passive"/>
     </net>
-    <net code="68" name="Net-(D11-Pad2)">
+    <net code="69" name="Net-(D11-Pad2)">
       <node ref="D11" pin="2" pinfunction="K" pintype="passive"/>
       <node ref="R14" pin="2" pintype="passive"/>
     </net>
-    <net code="69" name="Net-(D12-Pad2)">
+    <net code="70" name="Net-(D12-Pad2)">
       <node ref="D12" pin="2" pinfunction="K" pintype="passive"/>
       <node ref="R15" pin="2" pintype="passive"/>
     </net>
-    <net code="70" name="Net-(P1-Pad37)">
+    <net code="71" name="Net-(P1-Pad34)">
+      <node ref="P1" pin="34" pinfunction="P4" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+    </net>
+    <net code="72" name="Net-(P1-Pad37)">
       <node ref="P1" pin="37" pinfunction="P7" pintype="passive"/>
       <node ref="R3" pin="2" pintype="passive"/>
       <node ref="U1" pin="2" pinfunction="K" pintype="passive"/>
     </net>
-    <net code="71" name="Net-(P1-Pad38)">
+    <net code="73" name="Net-(P1-Pad38)">
       <node ref="P1" pin="38" pinfunction="P8" pintype="passive"/>
       <node ref="R4" pin="2" pintype="passive"/>
       <node ref="U2" pin="2" pinfunction="K" pintype="passive"/>
     </net>
-    <net code="72" name="Net-(P1-Pad39)">
+    <net code="74" name="Net-(P1-Pad39)">
       <node ref="P1" pin="39" pinfunction="P9" pintype="passive"/>
       <node ref="R2" pin="2" pintype="passive"/>
       <node ref="U3" pin="2" pinfunction="K" pintype="passive"/>
     </net>
-    <net code="73" name="Net-(P1-Pad40)">
+    <net code="75" name="Net-(P1-Pad40)">
       <node ref="P1" pin="40" pinfunction="P10" pintype="passive"/>
       <node ref="R5" pin="2" pintype="passive"/>
       <node ref="U4" pin="2" pinfunction="K" pintype="passive"/>
     </net>
-    <net code="74" name="Net-(P3-Pad1)">
+    <net code="76" name="Net-(P3-Pad1)">
       <node ref="P3" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="R7" pin="1" pintype="passive"/>
     </net>
-    <net code="75" name="Net-(P4-Pad2)">
+    <net code="77" name="Net-(P4-Pad2)">
       <node ref="P4" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="R8" pin="2" pintype="passive"/>
     </net>
-    <net code="76" name="Net-(P9-Pad35)">
+    <net code="78" name="Net-(P9-Pad35)">
       <node ref="P9" pin="35" pinfunction="Pin_35" pintype="passive"/>
       <node ref="R30" pin="2" pintype="passive"/>
     </net>
-    <net code="77" name="Net-(P9-Pad37)">
+    <net code="79" name="Net-(P9-Pad37)">
       <node ref="P9" pin="37" pinfunction="Pin_37" pintype="passive"/>
       <node ref="R31" pin="2" pintype="passive"/>
     </net>
-    <net code="78" name="Net-(R9-Pad2)">
+    <net code="80" name="Net-(R9-Pad2)">
       <node ref="R9" pin="2" pintype="passive"/>
       <node ref="U10" pin="7" pinfunction="B/Z" pintype="bidirectional"/>
     </net>
-    <net code="79" name="Net-(R10-Pad2)">
+    <net code="81" name="Net-(R10-Pad2)">
       <node ref="R10" pin="2" pintype="passive"/>
       <node ref="U10" pin="6" pinfunction="A/Y" pintype="bidirectional"/>
     </net>
-    <net code="80" name="Net-(R28-Pad2)">
+    <net code="82" name="Net-(R28-Pad2)">
       <node ref="R28" pin="2" pintype="passive"/>
       <node ref="R30" pin="1" pintype="passive"/>
       <node ref="Sw3" pin="1" pintype="input"/>
     </net>
-    <net code="81" name="Net-(R29-Pad2)">
+    <net code="83" name="Net-(R29-Pad2)">
       <node ref="R29" pin="2" pintype="passive"/>
       <node ref="R31" pin="1" pintype="passive"/>
       <node ref="Sw4" pin="1" pintype="input"/>
     </net>
-    <net code="82" name="SYS_5V">
+    <net code="84" name="SYS_5V">
       <node ref="P9" pin="7" pinfunction="Pin_7" pintype="passive"/>
       <node ref="P9" pin="8" pinfunction="Pin_8" pintype="passive"/>
     </net>
-    <net code="83" name="VCC-RTC">
+    <net code="85" name="VCC-RTC">
       <node ref="P9" pin="32" pinfunction="Pin_32" pintype="passive"/>
     </net>
-    <net code="84" name="unconnected-(P8-Pad3)">
+    <net code="86" name="unconnected-(P8-Pad3)">
       <node ref="P8" pin="3" pinfunction="Pin_3" pintype="passive+no_connect"/>
     </net>
-    <net code="85" name="unconnected-(P8-Pad4)">
+    <net code="87" name="unconnected-(P8-Pad4)">
       <node ref="P8" pin="4" pinfunction="Pin_4" pintype="passive+no_connect"/>
     </net>
-    <net code="86" name="unconnected-(P8-Pad5)">
+    <net code="88" name="unconnected-(P8-Pad5)">
       <node ref="P8" pin="5" pinfunction="Pin_5" pintype="passive+no_connect"/>
     </net>
-    <net code="87" name="unconnected-(P8-Pad6)">
+    <net code="89" name="unconnected-(P8-Pad6)">
       <node ref="P8" pin="6" pinfunction="Pin_6" pintype="passive+no_connect"/>
     </net>
-    <net code="88" name="unconnected-(P8-Pad7)">
+    <net code="90" name="unconnected-(P8-Pad7)">
       <node ref="P8" pin="7" pinfunction="Pin_7" pintype="passive+no_connect"/>
     </net>
-    <net code="89" name="unconnected-(P8-Pad8)">
+    <net code="91" name="unconnected-(P8-Pad8)">
       <node ref="P8" pin="8" pinfunction="Pin_8" pintype="passive+no_connect"/>
     </net>
-    <net code="90" name="unconnected-(P8-Pad9)">
+    <net code="92" name="unconnected-(P8-Pad9)">
       <node ref="P8" pin="9" pinfunction="Pin_9" pintype="passive+no_connect"/>
     </net>
-    <net code="91" name="unconnected-(P8-Pad10)">
+    <net code="93" name="unconnected-(P8-Pad10)">
       <node ref="P8" pin="10" pinfunction="Pin_10" pintype="passive+no_connect"/>
     </net>
-    <net code="92" name="unconnected-(P8-Pad11)">
+    <net code="94" name="unconnected-(P8-Pad11)">
       <node ref="P8" pin="11" pinfunction="Pin_11" pintype="passive+no_connect"/>
     </net>
-    <net code="93" name="unconnected-(P8-Pad12)">
+    <net code="95" name="unconnected-(P8-Pad12)">
       <node ref="P8" pin="12" pinfunction="Pin_12" pintype="passive+no_connect"/>
     </net>
-    <net code="94" name="unconnected-(P8-Pad14)">
+    <net code="96" name="unconnected-(P8-Pad14)">
       <node ref="P8" pin="14" pinfunction="Pin_14" pintype="passive+no_connect"/>
     </net>
-    <net code="95" name="unconnected-(P8-Pad17)">
+    <net code="97" name="unconnected-(P8-Pad17)">
       <node ref="P8" pin="17" pinfunction="Pin_17" pintype="passive+no_connect"/>
     </net>
-    <net code="96" name="unconnected-(P8-Pad18)">
+    <net code="98" name="unconnected-(P8-Pad18)">
       <node ref="P8" pin="18" pinfunction="Pin_18" pintype="passive+no_connect"/>
     </net>
-    <net code="97" name="unconnected-(P8-Pad19)">
+    <net code="99" name="unconnected-(P8-Pad19)">
       <node ref="P8" pin="19" pinfunction="Pin_19" pintype="passive+no_connect"/>
     </net>
-    <net code="98" name="unconnected-(P8-Pad20)">
+    <net code="100" name="unconnected-(P8-Pad20)">
       <node ref="P8" pin="20" pinfunction="Pin_20" pintype="passive+no_connect"/>
     </net>
-    <net code="99" name="unconnected-(P8-Pad21)">
+    <net code="101" name="unconnected-(P8-Pad21)">
       <node ref="P8" pin="21" pinfunction="Pin_21" pintype="passive+no_connect"/>
     </net>
-    <net code="100" name="unconnected-(P8-Pad22)">
+    <net code="102" name="unconnected-(P8-Pad22)">
       <node ref="P8" pin="22" pinfunction="Pin_22" pintype="passive+no_connect"/>
     </net>
-    <net code="101" name="unconnected-(P8-Pad23)">
+    <net code="103" name="unconnected-(P8-Pad23)">
       <node ref="P8" pin="23" pinfunction="Pin_23" pintype="passive+no_connect"/>
     </net>
-    <net code="102" name="unconnected-(P8-Pad24)">
+    <net code="104" name="unconnected-(P8-Pad24)">
       <node ref="P8" pin="24" pinfunction="Pin_24" pintype="passive+no_connect"/>
     </net>
-    <net code="103" name="unconnected-(P8-Pad25)">
+    <net code="105" name="unconnected-(P8-Pad25)">
       <node ref="P8" pin="25" pinfunction="Pin_25" pintype="passive+no_connect"/>
     </net>
-    <net code="104" name="unconnected-(P8-Pad26)">
+    <net code="106" name="unconnected-(P8-Pad26)">
       <node ref="P8" pin="26" pinfunction="Pin_26" pintype="passive+no_connect"/>
     </net>
-    <net code="105" name="unconnected-(P9-Pad33)">
+    <net code="107" name="unconnected-(P9-Pad33)">
       <node ref="P9" pin="33" pinfunction="Pin_33" pintype="passive+no_connect"/>
     </net>
-    <net code="106" name="unconnected-(P9-Pad36)">
+    <net code="108" name="unconnected-(P9-Pad36)">
       <node ref="P9" pin="36" pinfunction="Pin_36" pintype="passive+no_connect"/>
     </net>
-    <net code="107" name="unconnected-(P9-Pad38)">
+    <net code="109" name="unconnected-(P9-Pad38)">
       <node ref="P9" pin="38" pinfunction="Pin_38" pintype="passive+no_connect"/>
     </net>
-    <net code="108" name="unconnected-(P9-Pad40)">
+    <net code="110" name="unconnected-(P9-Pad40)">
       <node ref="P9" pin="40" pinfunction="Pin_40" pintype="passive+no_connect"/>
     </net>
-    <net code="109" name="unconnected-(U5-Pad3)">
+    <net code="111" name="unconnected-(U5-Pad3)">
       <node ref="U5" pin="3" pinfunction="ALERT" pintype="output+no_connect"/>
     </net>
-    <net code="110" name="unconnected-(U6-Pad2)">
+    <net code="112" name="unconnected-(U6-Pad2)">
       <node ref="U6" pin="2" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="111" name="unconnected-(U6-Pad3)">
+    <net code="113" name="unconnected-(U6-Pad3)">
       <node ref="U6" pin="3" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="112" name="unconnected-(U6-Pad5)">
+    <net code="114" name="unconnected-(U6-Pad5)">
       <node ref="U6" pin="5" pinfunction="N" pintype="no_connect"/>
     </net>
-    <net code="113" name="unconnected-(U6-Pad6)">
+    <net code="115" name="unconnected-(U6-Pad6)">
       <node ref="U6" pin="6" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="114" name="unconnected-(U6-Pad7)">
+    <net code="116" name="unconnected-(U6-Pad7)">
       <node ref="U6" pin="7" pinfunction="NC" pintype="no_connect"/>
     </net>
   </nets>
